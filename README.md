@@ -206,4 +206,4 @@ select * from customer1 natural join salesman1;
 SELECT * FROM salesman1 RIGHT JOIN customer1 ON salesman1.salesman_id=customer1.salesman_id;
 ```
 ### OUTPUT FOR RIGHT JOIN:
-![RIGHT JOIN](https://github.com/Jeevapriya14/EX-3-SubQueries-Views-and-Joins/assets/121003043/bb3089be-49fd-4c4d-b375-2198191c60af)
+![image](https://github.com/harinidq/EX-3-SubQueries-Views-and-Joins/assets/113497680/ec396f10-8bb4-45bc-9cf1-3c9212804399)
