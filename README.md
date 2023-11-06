@@ -1,5 +1,8 @@
-# EX 3 SubQueries, Views and Joins 
-# Date:18.8.23
+# EX 3 SubQueries, Views and Joins
+DATE: 18/8/23
+## AIM: To execute SubQueries, Views and Joins using SQL. 
+## PROGRAM:
+
 ## Create employee Table
 ```sql
 CREATE TABLE EMP (EMPNO NUMBER(4) PRIMARY KEY,ENAME VARCHAR2(10),JOB VARCHAR2(9),MGR NUMBER(4),HIREDATE DATE,SAL NUMBER(7,2),COMM NUMBER(7,2),DEPTNO NUMBER(2));
@@ -122,7 +125,6 @@ create view empv30 AS select EMPNO,ENAME,SAL from EMP where DEPTNO=30;
 ### QUERY:
 ```
 update EMP set SAL=SAL*1.1 WHERE JOB='clerk';
-
 create view empv8 as select EMPNO,ENAME,SAL,JOB from EMP;
 ```
 ### OUTPUT:
@@ -206,5 +208,6 @@ SELECT * FROM salesman1 RIGHT JOIN customer1 ON salesman1.salesman_id=customer1.
 ```
 ### OUTPUT FOR RIGHT JOIN:
 ![image](https://github.com/harinidq/EX-3-SubQueries-Views-and-Joins/assets/113497680/ec396f10-8bb4-45bc-9cf1-3c9212804399)
+
 ### RESULT:
-Output is sucessfully got.
+The program has been executed successfully for the above queries.
